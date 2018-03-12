@@ -1,30 +1,65 @@
 header {
+  display: flex;
     position: relative;
-    height: 100px;
-    backgroun: white;
+    height: 50px;
+    background:white;
     
   }
   .logo{
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 10px;
-    width: 300px;
+    width: 150px;
   }
-  nav {
-    width: 200px;
-    height: 300px;
-    background: lime;
+  .menu li {
+    display: inline;
   }
-  
+  .menu {
+    position: absolute;
+    left: 10%;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
   main {
     position: relative;
     width: 100%;
-    height: 500px;
-    margin: 0 20px;
-    background:white;
+    height: 800px;
+    background:#e9e9e9;
+    display: flex;
+ }
+ video{
+   width: 900px;
+   position: absolute;
+   top: 5%;
+   right: 0%;
+   bottom: 0%;
+   left: 40%;
+ }
+  .header1{
+    font-family: Yandex Sans Text Web,Arial,sans-serif;
+    font-size: 84px;
+    font-weight: 500;
+    line-height: 82px;
+    margin: 0 0 22px -4px;
   }
-  h1{
-    text-align: center;
+  .par1{
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 505px;
+    margin: 0 0 33px;
+    padding: 0;
+    color: #1a1a1a;
+  }
+  p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+  .vsegda{
+    overflow: hidden;
   }
   .prod{
     position: absolute;
@@ -41,28 +76,7 @@ header {
     left: 69%;
     width: 300px;  
   }
-  p{
-    position: absolute;
-    left: 0%;
-    top: 400px;  
-    font-style: italic;  
-  }
-  h2{
-    position: absolute;
-    left: 40%;
-    top: 420px; 
-    text-align: center; 
-  }
-  .adv{
-    position: absolute;
-    left: 0%;
-    top: 445px; 
-      }
-  aside {
-    width: 200px;
-    height: 300px;
-    background: lightblue;
-  }
+  
   
   footer {
     height: 100px;
@@ -71,9 +85,8 @@ header {
   
   .container {
     display: flex;
-    background: white;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
   }
 
